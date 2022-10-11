@@ -86,7 +86,6 @@ const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 8.1. We have 2 different objects, which hold information about a user. Combine the information from the two objects into a third object, named `userInfoAfterUpdate`. Use destructuring.
 
-8.2. `console.log(userInfoAfterUpdate)`
 
 ```javascript
 const userInfo = {
@@ -104,6 +103,7 @@ const userInfoUpdate = {
     securityQuestion: "What was your first car?"
 }
 ```
+8.2. `console.log(userInfoAfterUpdate)`
 ---
 
 **mehr Lesematerial**
