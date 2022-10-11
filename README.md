@@ -15,7 +15,7 @@ const fruitArray = ["watermelon", "strawberry", "orange"]
 2.2 Now save the city additionally in an extra variable named `cityWithoutDestructuring`. Do not use destructuring this time.
 
 
-```
+```javascript
 const person = {
     firstName: "John",
     lastName: "Smith",
@@ -30,7 +30,7 @@ const person = {
 ---
 3. What does the following code return/print?
 
-```
+```javascript
 function getUserData({firstName, favoriteColor="green"}){
   return `Your name is ${firstName} and you like ${favoriteColor}`;
 }
@@ -43,7 +43,7 @@ getUserData({}) // ?
 ---
 4. What does the following code return/print?
 
-```
+```javascript
 const planetFacts = {
   numPlanets: 8,
   yearNeptuneDiscovered: 1846,
@@ -58,7 +58,7 @@ console.log(discoveryYears); // ?
 ---
 5. What does the following code return/print?
 
-```
+```javascript
 const facts = {numPlanets: 8, yearNeptuneDiscovered: 1846};
 const {numPlanets, yearNeptuneDiscovered} = facts;
 
@@ -68,14 +68,14 @@ console.log(yearNeptuneDiscovered); // ?
 ---
 6. Use destructuring to create extra variables for the two tutors of the class.
 
-```
+```javascript
 const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 ```
 ---
 7. Use destructuring to create two variables named `teacher` and `class`. Save the respective values in it.
 
-```
+```javascript
 const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 ```
@@ -84,7 +84,7 @@ const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 8.2. `console.log(userInfoAfterUpdate)`
 
-```
+```javascript
 const userInfo = {
     name: "John",
     age: "35",
