@@ -44,13 +44,13 @@ getUserData({}) // ?
 4. What does the following code return/print?
 
 ```
-let planetFacts = {
+const planetFacts = {
   numPlanets: 8,
   yearNeptuneDiscovered: 1846,
   yearMarsDiscovered: 1659
 };
 
-let {numPlanets, ...discoveryYears} = planetFacts;
+const {numPlanets, ...discoveryYears} = planetFacts;
 
 console.log(discoveryYears); // ?
 
@@ -59,8 +59,8 @@ console.log(discoveryYears); // ?
 5. What does the following code return/print?
 
 ```
-let facts = {numPlanets: 8, yearNeptuneDiscovered: 1846};
-let {numPlanets, yearNeptuneDiscovered} = facts;
+const facts = {numPlanets: 8, yearNeptuneDiscovered: 1846};
+const {numPlanets, yearNeptuneDiscovered} = facts;
 
 console.log(numPlanets); // ?
 console.log(yearNeptuneDiscovered); // ?
