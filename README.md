@@ -2,7 +2,8 @@
 
 1.1 Assign orange to an extra variable using destructuring.
 1.2 Now assign orange to an extra variable without using destructuring.
-```
+
+```javascript
 const fruitArray = ["watermelon", "strawberry", "orange"]
 ```
 ---
