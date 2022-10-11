@@ -1,17 +1,18 @@
 ## Destructuring
 
-1. Assign orange to an extra variable using destructuring.
+1.1 Assign orange to an extra variable using destructuring.
+1.2 Now assign orange to an extra variable without using destructuring.
 ```
 const fruitArray = ["watermelon", "strawberry", "orange"]
 ```
 ---
 2.1 Create variables for the following values from the object using destructuring.
 
-- an extra variable for name (name should hold firstName as a value)
-- an extra variable for the city
-- an extra variable holding the hobbies
+- an extra variable named `name` (name should hold firstName as a value)
+- an extra variable named `city` (city should hold city as a value)
+- an extra variable named `hobbies` (hobbies should hold hobbies as a value)
 
-2.2 Now save the city additionally in an extra variable called `cityWithoutDestructuring` without using destructuring.
+2.2 Now save the city additionally in an extra variable named `cityWithoutDestructuring`. Do not use destructuring this time.
 
 
 ```
@@ -72,7 +73,7 @@ const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 ```
 ---
-7. Use destructuring to create two variables named teacher and class. Save the respective values in it.
+7. Use destructuring to create two variables named `teacher` and `class`. Save the respective values in it.
 
 ```
 const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
