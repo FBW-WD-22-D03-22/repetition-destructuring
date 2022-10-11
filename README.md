@@ -81,6 +81,7 @@ const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 const breakingBugs = ["Mofak", "Mateusz", "Max", "Said", "Belal", "Galina"]
 
 ```
+---
 
 8.1. We have 2 different objects, which hold information about a user. Combine the information from the two objects into a third object, named `userInfoAfterUpdate`. Use destructuring.
 
