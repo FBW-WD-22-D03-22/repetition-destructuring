@@ -108,7 +108,7 @@ const userInfoUpdate = {
 
 ---
 
-**mehr Lesematerial**
+**addiditional reading material**
 
 :point_right:[object destructuring](https://dmitripavlutin.com/javascript-object-destructuring/)\
 :point_right:[help & reference](https://github.com/D02-1/help-and-reference/blob/main/3_pb/4_data-structure/destructuring.md)
