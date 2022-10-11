@@ -103,7 +103,9 @@ const userInfoUpdate = {
     securityQuestion: "What was your first car?"
 }
 ```
+
 8.2. `console.log(userInfoAfterUpdate)`
+
 ---
 
 **mehr Lesematerial**
